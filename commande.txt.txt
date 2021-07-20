@@ -1,0 +1,59 @@
+git config --list
+git config --global user.email htc.zall21@gmail.com
+git config --global user.name "Zakia ALLAM"
+clear
+git config --list
+pwd
+mkdir apolo-13
+ls -la
+pwd
+cd apolo-13
+pwd
+git init
+ls -la
+clear
+-- Action developpeur : faire des modifications : ajouter un répertoire  | ajouter des fichier 
+git status 
+git add *
+git status -u
+git commit -m "add empty init database sq1 script"
+git status
+git log
+git log --graph
+git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
+git config --global alias.ld "log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all"
+git ld 
+git config --list
+git config --global alias.st "status -u"
+git st
+
+git remote add origin https://github.com/zallam1/apolo-13.git
+git push -u origin master
+git status
+
+git brunch jira-146
+git branch --list
+git checkout jira-146
+git st
+-- Action developpeur : travailler sur la demande jira-146 : faire des modifications : ajouter un répertoire  | ajouter des fichier | ajouter des fichier 
+git add *
+git commit -am "fix issue jira-146 : resolve login issue with anonymous user"
+git status -u
+
+git status -u
+git commit -am "fix issue jira-146 : resolve login issue with anonymous user"
+git status -u
+git push
+git checkout master 
+
+git log
+git status 
+git ceckout  master
+git checkout  master
+cd ..
+git checkout  master
+git merge jira-146 
+git push
+history
+history >> commande.txt
+ffgfffffffffff

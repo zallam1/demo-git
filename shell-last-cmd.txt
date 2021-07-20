@@ -1,0 +1,281 @@
+    1  ls
+    2  cd test
+    3  mkdir test
+    4  ls 
+    5  ls
+    6  cd..
+    7  ls
+    8  pwd
+    9  cd ..
+   10  ls
+   11  cd etc
+   12  ls
+   13  exit
+   14  clear
+   15  efs
+   16  d
+   17  ds
+   18  f
+   19  ds
+   20  fds
+   21  f
+   22  dsq
+   23  gs
+   24  clear
+   25  pwd
+   26  cd ..
+   27  pwd
+   28  cd /
+   29  pwd
+   30  ls
+   31  ls -l
+   32  cd tmp/
+   33  ll
+   34  ls
+   35  cd ..
+   36  clear
+   37  ls -l
+   38  cd vmlinuz
+   39  vi vmlinuz 
+   40  ./vmlinuz
+   41  cd
+   42  cd ~
+   43  cd /
+   44  cd ~
+   45  pwd
+   46  ll
+   47  ls
+   48  rm -r test/
+   49  ls
+   50  clear
+   51  pwd
+   52  ls -l
+   53  mkdir data
+   54  ls -l
+   55  mkdir dev doc htc ws
+   56  ls -l
+   57  tree
+   58  Tree
+   59  apt-get install tree
+   60  sudo apt-get install tree
+   61  clear
+   62  ls -l
+   63  tree
+   64  cd ..
+   65  tree
+   66  clear
+   67  tree
+   68  cd
+   69  tree
+   70  cd
+   71  tree
+   72  clear
+   73  pwd
+   74  mkdir ./data/library ./data/sales
+   75  tree
+   76  mkdir ./dev/java ./doc/sfd ./htc/algo ./ws/dev_java
+   77  tree
+   78  mkdir ./dev/shell ./doc/std ./htc/dpi ./ws/dev_python
+   79  tree
+   80  mkdir ./dev/sql ./doc/us ./htc/intro ./ws/dev_scala
+   81  tree
+   82  mkdir  ./htc/sql
+   83  tree
+   84  clear
+   85  history 
+   86  history > shell-init.cmd
+   87  ls -l
+   88  clear
+   89  history 
+   90  clear
+   91  ls -l
+   92  cat shell-init.cmd 
+   93  clear
+   94  vi shell-init.cmd 
+   95  cp shell-init.cmd ../../../tmp/
+   96  ls -ll ../../../tmp/sh*
+   97  pwd
+   98  ls -l
+   99  ls -l d*
+  100  ls -l w*
+  101  clear
+  102  ls 
+  103  ls -l
+  104  cd data/
+  105  pwd
+  106  ls -l
+  107  tree
+  108  cd ..
+  109  tree
+  110  cd ws/dev_java/
+  111  mkdir niv1/niv2
+  112  mkdir ./niv1/niv2
+  113  mkdir niv1
+  114  mkdir ./niv1/niv2
+  115  tree
+  116  cd ..
+  117  tree
+  118  pwd
+  119  cd ws/dev_java/niv1/niv2/
+  120  pwd
+  121  cd ../../../../data/library/
+  122  pwd
+  123  cd 
+  124  cd /home/HTCOMPASS/rhammadi/data/library/
+  125  cd /tmp/
+  126  cd /home/HTCOMPASS/rhammadi/data/library/
+  127  cd /root/
+  128  cd /etc/binfmt.d/
+  129  cd /home/HTCOMPASS/rhammadi/data/library/
+  130  cd
+  131  clear
+  132  apt-get install vim
+  133  sudo apt-get install vim
+  134  clear
+  135  pwd
+  136  ls
+  137  cd htc
+  138  ls
+  139  mkdir shell
+  140  cd shell/
+  141  mkdir vim
+  142  cd vim/
+  143  pwd
+  144  vim welcome_vim.txt
+  145  ls
+  146  vim welcome_vim.txt
+  147  ls
+  148  ls -l
+  149  cat welcome_vim.txt 
+  150  vim welcome_vim.txt 
+  151  cat welcome_vim.txt 
+  152  vi welcome_vim.txt 
+  153  cat welcome_vim.txt 
+  154  vim welcome_vim.txt 
+  155  cat welcome_vim.txt 
+  156  clear
+  157  vim welcome_vim.txt 
+  158  cat welcome_vim.txt 
+  159  vim welcome_vim.txt 
+  160  clear
+  161  vim welcome_vim.txt 
+  162  cd 
+  163  mkdir test
+  164  cd test/
+  165  mkdir abc ABC Abc aBc abC aBC AbC
+  166  ls
+  167  ls -l
+  168  find welcome_vim*
+  169  cd 
+  170  find welcome_vim*
+  171  locate  welcome_vim*
+  172  locate . | grep  welcome_vim*
+  173  find . | grep  welcome_vim*
+  174  cd ./htc/shell/vim/
+  175  ls
+  176  clear
+  177  cat welcome_vim.txt 
+  178  vim test_pipe.txt
+  179  clear
+  180  cat test_pipe.txt 
+  181  cat test_pipe.txt > copie.txt
+  182  ls
+  183  cat copie.txt 
+  184  cat test_pipe.txt > copie.txt
+  185  cat copie.txt 
+  186  cat test_pipe.txt >> copie.txt
+  187  cat copie.txt~ 
+  188  cat copie.txt
+  189  cat test_pipe.txt >> copie.txt
+  190  cat copie.txt
+  191  cat test_pipe.txt > copie.txt
+  192  cat copie.txt
+  193  clear
+  194  cat welcome_vim.txt 
+  195  clear
+  196  cat welcome_vim.txt | grep fina*
+  197  cat welcome_vim.txt | grep ma
+  198  vim test_pipe_grep.txt
+  199  cat test_pipe_grep.txt
+  200  cat test_pipe_grep.txt | grep ici
+  201  cat test_pipe_grep.txt | grep la
+  202  cat test_pipe_grep.txt | grep me
+  203  cat test_pipe_grep.txt | grep me 
+  204  clear
+  205  upper
+  206  UPPERCASE
+  207  tr
+  208  cat test_pipe_grep.txt | grep me 
+  209  cat test_pipe_grep.txt | grep me | tr
+  210  cat test_pipe_grep.txt | grep me | tr .
+  211  cat test_pipe_grep.txt | grep me | tr *
+  212  cat test_pipe_grep.txt | grep me 
+  213  cat test_pipe_grep.txt | grep avec
+  214  cat test_pipe_grep.txt | grep avec | grep pas
+  215  cat test_pipe_grep.txt | grep pas
+  216  vim  test_pipe_grep.txt
+  217  cat test_pipe_grep.txt | grep pas
+  218  cat test_pipe_grep.txt | grep avec | grep pas
+  219  clear
+  220  cat test_pipe_grep.txt
+  221  cat test_pipe_grep.txt | grep avec
+  222  cat test_pipe_grep.txt | grep avec | grep pas
+  223  ls
+  224  cd ..
+  225  tree
+  226  cd
+  227  tree
+  228  tree | grep ab
+  229  tree | grep aB
+  230  echo "Bonjour je suis la"
+  231  echo "Bonjour je suis la" | tr -
+  232  clear
+  233  echo 'too    many    spaces  here' | tr -s '[:space:]'
+  234  echo 'too    many    spaces  here'
+  235  echo 'up clean up  this up' | tr -d 'up'
+  236  echo 'up clean up  this up' | tr -d 'up'  | tr -s '[:
+  237  echo 'up clean up  this up' | tr -d 'up'  | tr -s '[:space:]'
+  238  man ls
+  239  ls
+  240  ls -l
+  241  ls -la
+  242  man grep
+  243  ls
+  244  cat shell-init.cmd 
+  245  grep ls shell-init.cmd 
+  246  grep mkdir  shell-init.cmd 
+  247  which java
+  248  which cpp
+  249  which openJDK
+  250  which openJdk
+  251  which openjdk
+  252  echo "The JAVA_HOME environment variable is not defined correctly" >&2
+  253  ls
+  254  pwd
+  255  cd test/
+  256  vim runIt.sh
+  257  ls -l
+  258  ./runIt.sh
+  259  chmod +x runIt.sh 
+  260  ls -l
+  261  .:runIt.sh 
+  262  ./runIt.sh 
+  263  vim runIt.sh
+  264  ./runIt.sh 
+  265  ./runIt.sh  djamel
+  266  vim runIt.sh
+  267  ./runIt.sh  djamel
+  268  vim runIt.sh
+  269  ./runIt.sh  djamel
+  270  vim runIt.sh
+  271  ./runIt.sh  djamel
+  272  vim runIt.sh
+  273  ./runIt.sh  Kahina
+  274  ./runIt.sh  Rachid
+  275  clear
+  276  vim runIt.sh
+  277  ./runIt.sh  Rachid
+  278  history >> /tmp/shell-init.cmd.save
+  279  history >> /tmp/shell-last-cmd.cmd
+j ai modifié mon fichier shell
+j ai encore modifié mon fichier shell
